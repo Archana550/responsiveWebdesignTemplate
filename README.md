@@ -14,12 +14,14 @@ RESPONSIVE FOOTER TEMPLATE
        *{
         box-sizing: border-box;
        }
-       #footer{
+       footer{
            width:100%;
            color:blanchedalmond;
            position:fixed;
            bottom:0;
        }
+       .main-content{
+       display:flex;
        @media screen and (max-width: 900px) {
   footer{
     position: relative;
